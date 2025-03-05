@@ -1,0 +1,15 @@
+ul{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+li{
+    display: inline-block;
+}
+@media (max-width:600px){
+    ul{
+        flex-direction: column;
+        font-display: center;;
+        align-items: center;
+    }
+}

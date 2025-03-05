@@ -1,0 +1,19 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+@media (max-width: 900px) {
+  .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.box{
+  background-color: aqua;
+  justify-content: center;
+  display: flex;
+}
+
+

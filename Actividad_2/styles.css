@@ -1,0 +1,18 @@
+.box{
+    background-color: lightblue ;
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .box {
+        width: 80%;
+        margin: auto;
+        background-color: lightblue ;
+    }
+}
+@media (min-width: 1200px) {
+    .box {
+        width: 50%;
+        background-color: green;
+    }
+}

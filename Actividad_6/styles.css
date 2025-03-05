@@ -1,0 +1,23 @@
+.desktop-only{
+    background-color: lightblue !important;
+    width: 100%;
+
+
+}
+@media (max-width: 768px) {
+    .desktop-only {
+      display: none;
+    }
+  }
+
+.mobile-only{
+    background-color: lightcoral !important;
+    width: 100%;
+
+
+}
+@media (min-width: 768px) {
+    .mobile-only {
+      display: none;
+    }
+  }
